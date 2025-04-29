@@ -19,5 +19,5 @@ The project can be built with Gradle or Maven.
 ### Maven
 
 ```shell
-./mvnw clean install
+./mvnw verify
 ```
