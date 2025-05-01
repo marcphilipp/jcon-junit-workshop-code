@@ -48,6 +48,27 @@ class Exercise04_ListTests {
             assertEquals(1, list.size());
         }
 
-        // TODO Add nested TwoElements class here
+        @Nested
+        class TwoElements {
+            @BeforeEach
+            void addSecondElement() {
+                list.add("second");
+            }
+
+            @Test
+            void returns_first_element() {
+                assertEquals("first", list.getFirst());
+            }
+
+            @Test
+            void returns_last_element() {
+                assertEquals("second", list.getLast());
+            }
+
+            @Test
+            void has_size_of_2() {
+                assertEquals(2, list.size());
+            }
+        }
     }
 }
