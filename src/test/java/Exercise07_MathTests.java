@@ -3,7 +3,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Exercise07_MathTests {
+class Exercise07_MathTests {
 
     @ParameterizedTest(name = "sqrt({0}) = {1}")
     @CsvSource({
