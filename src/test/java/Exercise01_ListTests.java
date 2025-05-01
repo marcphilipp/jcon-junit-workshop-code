@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -22,6 +23,7 @@ class Exercise01_ListTests {
     }
 
     @Test
+    @Tag("exercise-3")
     void is_empty_after_creation() {
         assertTrue(list.isEmpty());
     }
@@ -32,6 +34,7 @@ class Exercise01_ListTests {
     }
 
     @Test
+    @Tag("exercise-3")
     void has_size_of_one_after_adding_an_element() {
         list.add("item");
 

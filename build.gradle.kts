@@ -18,5 +18,7 @@ java {
 }
 
 tasks.test {
-    useJUnitPlatform()
+    useJUnitPlatform {
+//        includeTags("exercise-3")
+    }
 }
