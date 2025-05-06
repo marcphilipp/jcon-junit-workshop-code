@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.fail;
 
 @Disabled // TODO remove me
-class Exercise09_Tests {
+class Exercise08_Tests {
 
     @NotToday
     @Test

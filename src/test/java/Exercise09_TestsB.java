@@ -12,7 +12,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class Exercise10_TestsB {
+class Exercise09_TestsB {
 
     ExecutorService executorService;
 

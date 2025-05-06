@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 
 @Disabled // TODO remove me
-class Exercise06_TimeoutTests {
+class Exercise05_TimeoutTests {
 
     static final int TIMEOUT_SECONDS = 1;
     static final int SLEEP_SECONDS = 2;
